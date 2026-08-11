@@ -1,0 +1,12 @@
+[Unit]
+Description=GETAC P2 programmable button handler
+After=graphical-session.target
+
+[Service]
+Environment=P2_COMMAND=spectacle
+ExecStart=/usr/bin/python3 %h/.local/bin/p2handler.py
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=graphical-session.target
