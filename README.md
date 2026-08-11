@@ -1,5 +1,7 @@
 # getac-mpmd
 
+[![License: GPL v2](https://img.shields.io/badge/License-GPLv2-blue.svg)](LICENSE)
+
 Linux driver + installer that makes the programmable buttons on GETAC rugged
 laptops (P1/P2/etc.) work as real input events, and wires the P2 button to
 launch a screenshot tool.
